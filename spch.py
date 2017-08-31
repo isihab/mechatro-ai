@@ -22,10 +22,10 @@ def mechatro(val):
         speak("I am fine")
  
     if "what is your name" in val:
-        speak("My Name is Siam")
+        speak("I am Mechatro")
 
-    if "why is Bangladesh famous" in val:
-        speak("Bangladesh is famous for agriculture")
+    if "What can you do for me" in val:
+        speak("I can do anything for you")
 
 
 
