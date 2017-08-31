@@ -36,7 +36,7 @@ def mechatro(val):
 def recaud():
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        print("Say something!")
+        print("What you want me to do for you, sir?")
         audio = r.listen(source)
      
     # Speech recognition using Google Speech Recognition
